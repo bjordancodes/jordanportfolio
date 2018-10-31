@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
       <Menu/>
         <header>
-         <img src={jordan1} alt="B. Jordan"/> Bonnie Jordan
+         <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan
         </header>
         {router}
         <footer>Website Created by Bonnie Jordan with Create React App | Header Photo by Amber Lamoreaux from Pexels</footer>
