@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {HashRouter} from 'react-router-dom';
+import router from './router';
+import Menu from './Components/Menu';
+import jordan1 from './images/jordan1.jpg'
+
 
 class App extends Component {
   render() {
     return (
+      <HashRouter>
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <Menu/>
+        <header>
+         <img src={jordan1} alt="B. Jordan"/> Bonnie Jordan
         </header>
+        {router}
+        <footer>Website Created by Bonnie Jordan with Create React App | Header Photo by Amber Lamoreaux from Pexels</footer>
       </div>
+      </HashRouter>
     );
   }
 }
