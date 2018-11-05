@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from 'react-image-gallery';
 import dash1 from '../images/dash1.PNG'
-import dash2 from '../images/dash2.PNG'
+import dash35 from '../images/dash35.png'
 import dash3 from '../images/dash3.PNG'
 import dash4 from '../images/dash4.PNG'
 import kitney1 from '../images/kitney1.PNG'
@@ -22,20 +22,11 @@ const dashImages = [
         originalClass: 'slide'
     },
     {
-        original: dash2,
-        thumbnail: dash2,
+        original: dash35,
+        thumbnail: dash35,
         originalClass: 'slide'
     },
-    {
-        original: dash3,
-        thumbnail: dash3,
-        originalClass: 'slide'
-    },
-    {
-        original: dash4,
-        thumbnail: dash4,
-        originalClass: 'slide'
-    },
+    
 ]
 
 const kitneyImages = [
@@ -58,9 +49,11 @@ const kitneyImages = [
     },
 ]
 return (
-      <div className="projects"> <h1>
+    <div>
+      <h1>
           Projects 
           </h1><p/>
+      <div className="projects">
       <div className="GalleryContainer">
           <ImageGallery 
           items={dashImages} 
@@ -75,7 +68,51 @@ return (
           placeholder text</div>
           <div className="GalleryContainer"> 
           placeholder text</div> */}
-          <div className="GalleryContainer">
+          <div className="textbox">
+              <h1>Dash Dallas SC</h1><h4>Personal Project</h4>
+              <p>~*Link Here*~<br/>
+              <a href="https://github.com/bjordancodes/dash-dallas-sc">Github</a><br/><br/>
+              Recreational Soccer Center Website<br/><br/>
+React | Node | Express | Redux | PostgreSQL | Mobile first UI | HTML | CSS | Javascript<br/><br/>
+
+An application for players and the facility to schedule and communicate about rec league soccer<br/><br/>
+<ul>
+<li>
+Created PostgreSQL tables for storing player, schedule, and team data
+</li>
+<li>
+Implemented full CRUD on 5 database tables using PostgreSQL
+</li>
+<li>
+Implemented nodemailer, ReactTables, and auth0 to display and protect data
+</li>
+<li>
+Created manager view and personalized user views to streamline editing and distribution of information<br/>
+</li>
+</ul>
+
+              </p>
+              </div>
+          <div className="textbox">
+          <p><h1>Kitney-Exchange</h1> <h4>Group Project</h4>
+          
+          React | Node | Express | Redux | PostgreSQL | HTML | CSS | Javascript<br/><br/>
+
+A platform that connects kidney failure patients to other donors and patients for an organ exchange through local hospitals
+<ul>
+<li>
+Designed schema and created databases for all user and hospital information in PostgreSQL
+</li>
+<li>
+Created redux store and managed all data flow between front and back end of application
+</li>
+<li>
+Collaborated daily with team on front and back end issues
+</li>
+</ul>
+</p>
+          </div>
+    <div className="GalleryContainer">
       <ImageGallery 
       items={kitneyImages} 
       thumbnailPosition={'right'}
@@ -84,6 +121,7 @@ return (
       showFullscreenButton={false}
       showNav={false}
       autoPlay={true}/>
+          </div> 
           </div>
           </div>
        )

@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 header {
   background-image: url('./images/abstract-art-artistic-1089027.jpg');
   background-size: cover;
@@ -23,10 +18,6 @@ header {
   font-stretch: semi-condensed;
   color: white;
   text-shadow: #282c34 3px 2px 1px;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 footer {
@@ -47,6 +38,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
+    z-index: 100;
   
 }
 
@@ -67,9 +59,8 @@ img {
 }
 
 .GalleryContainer {
-  width: 30vw;
-  height: 100%;
-  border: 5px solid black;
+  width: 50vw;
+  height: 30vw;
 }
 
 /* .slide {
@@ -81,4 +72,26 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.textbox {
+  width: 45vw;
+  height: 30vw;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 500px) {
+  .lilify {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .bigify {
+    display: none;
+  }
+  .profile-img{
+  display: none;    
+}
 }
