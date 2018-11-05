@@ -1,0 +1,11 @@
+
+.sandwichMenu {
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+.sandwichMenu {
+    display: none;
+}
+}

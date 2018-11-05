@@ -6,7 +6,7 @@ class SandwichMenu extends Component {
 render() {
 
 return (
-      <div>
+      <div className="sandwichMenu">
     <Link to="/AboutMe" className="link">About</Link>
     <Link to="/Contact" className="link">Contact</Link>
     <Link to="/Projects" className="link">Projects</Link>
