@@ -87,6 +87,10 @@ img {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.skillDiv{
+  margin: 5px;
+}
 @media only screen and (min-width: 500px) {
   .lilify {
     display: none;
@@ -100,5 +104,17 @@ img {
   }
   .profile-img{
   display: none;    
+}
+.projects {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.textbox {
+  width: 98vw;
+  height: auto;
+}
+.GalleryContainer {
+  width: 98vw;
+  height: auto;
 }
 }

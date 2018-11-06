@@ -21,42 +21,42 @@ return (
             Skills
             </h1>
             <div className="skills">
-            <div><img src={javascript} alt="javascript"/><br/>Javascript</div>
+            <div className="skillDiv"><img src={javascript} alt="javascript"/><br/>Javascript</div>
             <p/>
-            <div><img src={react} alt="react"/><br/>ReactJS</div>
+            <div className="skillDiv"><img src={react} alt="react"/><br/>ReactJS</div>
             <p/> 
-            <div>
+            <div className="skillDiv">
              <img src={redux} alt="redux" style={{width: "64px"}}/><br/>Redux</div>
              <p/>
-             <div>
+             <div className="skillDiv">
              <img src={html} alt="html"/>
              <br/>HTML</div>
              <p/>
-             <div>
+             <div className="skillDiv">
              <img src={css} alt="css"/><br/>
              CSS
              </div>
              <p/>
-             <div>
+             <div className="skillDiv">
             <img src={postgresql} alt="postgresql" style={{width: "64px", "border-radius": "50%"}}/><br/>PostgreSQL
              </div>
             <p/>
-            <div>
+            <div className="skillDiv">
             <img src={vue} alt="vue" style={{width: "64px"}}/>
             <br/> VueJS
             </div>
             <p/>
-            <div>
+            <div className="skillDiv">
             <img src={git} alt="git" style={{width: "64px", "border-radius": "50%"}}/><br/>
-            Git
+            Git & GitHub
             </div>
             <p/>
-            <div>
+            <div className="skillDiv">
             <img src={nodejs} alt="nodejs"/>
             <br/>NodeJS
             </div>
             <p/>
-            <div>
+            <div className="skillDiv">
             <img src={heroku} alt="heroku" style={{width: "64px", "border-radius": "50%"}}/>
             <br/>Heroku
             </div>
