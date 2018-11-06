@@ -4,8 +4,8 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
-import Icon from 'react-icons-kit';
-import {scrollToElement} from 'scroll-to-element';
+
+
 class Home extends Component {
 
 

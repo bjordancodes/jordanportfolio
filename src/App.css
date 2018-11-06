@@ -80,6 +80,13 @@ img {
   overflow: auto;
 }
 
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 @media only screen and (min-width: 500px) {
   .lilify {
     display: none;
