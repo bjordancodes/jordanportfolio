@@ -49,7 +49,8 @@ const kitneyImages = [
     },
 ]
 return (
-    <div>
+    <div className="bigContainer">
+        <div style={{height: "20px"}}></div>
       <h1>
           Projects 
           </h1><p/>
@@ -70,7 +71,7 @@ return (
           placeholder text</div> */}
           <div className="textbox">
               <h1>Dash Dallas SC</h1><h4>Personal Project</h4>
-              <p>~*Link Here*~<br/>
+              <p><a href="http://68.183.118.66:3001/#/">View live</a><br/>
               <a href="https://github.com/bjordancodes/dash-dallas-sc">Github</a><br/><br/>
               Recreational Soccer Center Website<br/><br/>
 React | Node | Express | Redux | PostgreSQL | Mobile first UI | HTML | CSS | Javascript<br/><br/>
@@ -93,8 +94,10 @@ Created manager view and personalized user views to streamline editing and distr
 
               </p>
               </div>
-          <div className="textbox">
+          <div className="textbox bigify">
           <p><h1>Kitney-Exchange</h1> <h4>Group Project</h4>
+          <a href="http://206.189.209.216:3001/#/">View live</a><br/>
+          <a href="https://github.com/Kitney-Exchange/kitney-exchange">Github</a><p/>
           
           React | Node | Express | Redux | PostgreSQL | HTML | CSS | Javascript<br/><br/>
 
@@ -121,7 +124,29 @@ Collaborated daily with team on front and back end issues
       showFullscreenButton={false}
       showNav={false}
       autoPlay={true}/>
-          </div> 
+          </div>
+
+<div className="textbox lilify">
+          <p><h1>Kitney-Exchange</h1> <h4>Group Project</h4>
+          <a href="http://206.189.209.216:3001/#/">View live</a><br/>
+          <a href="https://github.com/Kitney-Exchange/kitney-exchange">Github</a><p/>
+          
+          React | Node | Express | Redux | PostgreSQL | HTML | CSS | Javascript<br/><br/>
+
+A platform that connects kidney failure patients to other donors and patients for an organ exchange through local hospitals
+<ul>
+<li>
+Designed schema and created databases for all user and hospital information in PostgreSQL
+</li>
+<li>
+Created redux store and managed all data flow between front and back end of application
+</li>
+<li>
+Collaborated daily with team on front and back end issues
+</li>
+</ul>
+</p>
+          </div>
           </div>
           </div>
        )

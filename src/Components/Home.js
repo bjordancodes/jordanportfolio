@@ -4,6 +4,8 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
+import jordan1 from '../images/jordan1.jpg'
+
 
 
 class Home extends Component {
@@ -15,18 +17,24 @@ this.state = {
 }
 
 handleShow = (i) => {
- let e = document.getElementById("about");
- e.scrollIntoView(true);
+ let e = document.getElementById(i);
+ e.scrollIntoView({block: "start", behavior: "smooth", inline: "start" });
 }
 
 render() {
 
 return (
       <div>
-      <button onClick={()=>this.handleShow("about", 0)}>Click Me Tho</button>
-            <h1>
-            Welcome!
-            </h1> 
+      <div className="MenuBar">
+      <div to="/AboutMe" className="link" onClick={()=>this.handleShow("about")}>About</div>
+      <div to="Skills" className="link" onClick={()=>this.handleShow("skills")}>Skills</div>
+      <div to="/Projects" className="link" onClick={()=>this.handleShow("projects")}>Projects</div>
+      <div to="/Contact" className="link" onClick={()=>this.handleShow("contact")}>Contact</div>
+      </div>
+      <button onClick={()=>this.handleShow("about")}>About</button>
+      <header>
+         <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan
+        </header>
             <div className="bigify">
         <div id="about">
         <AboutMe />
@@ -37,7 +45,7 @@ return (
         <div id="projects">
         <Projects/>
         </div>
-        <div id="contacts">
+        <div id="contact">
         <Contact/>
         </div>
         </div>

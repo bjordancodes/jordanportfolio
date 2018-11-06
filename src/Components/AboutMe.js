@@ -6,7 +6,8 @@ class AboutMe extends Component {
 render() {
 
 return (
-      <div>
+      <div className="bigContainer">
+            <div style={{height: "20px"}}></div>
                    <h1>
                    About Me 
                    </h1>

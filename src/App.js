@@ -14,10 +14,10 @@ class App extends Component {
     return (
       <HashRouter>
       <div className="App">
-      <Menu/>
-        <header>
+      {/* <Menu/> */}
+        {/* <header>
          <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan
-        </header>
+        </header> */}
         <Home/>
         <div className="lilify">
         {router}
