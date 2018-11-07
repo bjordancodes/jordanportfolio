@@ -20,15 +20,15 @@ return (
             <h1>Reach Out!</h1><br/>
       I'd love to hear from you! You can reach me on: <p></p>
       <div className="projects bigify">
-      {this.contact(linkedin, "https://www.linkedin.com/in/bjordancodes/", "LinkedIn" )}
-      {this.contact(twitter, "https://twitter.com/bjordancodes", "Twitter")}
-      {this.contact(githubwhite, "https://github.com/bjordancodes", "Github")}
-      {this.contact(mail, "mailto:bjordancodes@gmail.com", "e-mail")}
+      {this.contact(linkedin, "https://www.linkedin.com/in/bjordancodes/", "LinkedIn.com/in/ bjordancodes" )}
+      {this.contact(twitter, "https://twitter.com/bjordancodes", "Twitter.com/ bjordancodes")}
+      {this.contact(githubwhite, "https://github.com/bjordancodes", "Github.com/ bjordancodes")}
+      {this.contact(mail, "mailto:bjordancodes@gmail.com", "bjordancodes @gmail.com")}
       </div>
       <div className="lilify">
-      <a href="https://www.linkedin.com/in/bjordancodes/">LinkedIn</a><p/>
-      <a href="https://twitter.com/bjordancodes">Twitter</a><p/> 
-      <a href="https://github.com/bjordancodes">Github</a><p/>
+      <a href="https://www.linkedin.com/in/bjordancodes/">LinkedIn.com/in/bjordancodes</a><p/>
+      <a href="https://twitter.com/bjordancodes">Twitter.com/bjordancodes</a><p/> 
+      <a href="https://github.com/bjordancodes">Github.com/bjordancodes</a><p/>
       <a href="mailto:bjordancodes@gmail.com">bjordancodes@gmail.com</a>
       </div>
 

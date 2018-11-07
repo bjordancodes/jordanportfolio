@@ -37,7 +37,7 @@ return (
       <Menu handleShow={this.handleShow}/>
       </div>
       <header>
-      <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan 
+      Bonnie Jordan 
       <img src={downarrow} className="arrow bigify" onClick={()=>this.handleShow("about")} alt="down arrow"/>
       <img src={downarrow} className="arrow lilify" onClick={()=>this.handleShow("about2")} alt="down arrow"/>
         </header>

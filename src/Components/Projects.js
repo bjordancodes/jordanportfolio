@@ -147,13 +147,14 @@ Collaborated daily with team on front and back end issues
 </ul>
 </p>
           </div>
-<div className="textbox"></div>
-<div className="textbox">
+          </div>
+{/* <div className="textbox"></div> */}
+<div style={{"padding-bottom": "40px", "background-color": "#77e0dc"}}>
 <h1>Portfolio</h1>
 You can view my code for this portfolio on 
-<a href="https://github.com/bjordancodes/jordanportfolio.git"> Github</a>
+<a href="https://github.com/bjordancodes/jordanportfolio.git"> Github</a>.<p/>
+React | HTML | CSS | Javascript
     </div>
-          </div>
           </div>
        )
 
