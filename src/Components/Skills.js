@@ -16,49 +16,50 @@ class Skills extends Component {
 render() {
 
 return (
-      <div className="bigContainer">
+      <div className="bigContainer" style={{"background-color": "#ef959e"}}>
             <div style={{height: "20px"}}></div>
             <h1>
             Skills
             </h1>
             <div className="skills">
-            <div className="skillDiv"><img src={javascript} alt="javascript"/><br/>Javascript</div>
+            <div className="skillDiv"><img src={javascript} alt="javascript" className="skillimg"/><br/>Javascript</div>
             <p/>
-            <div className="skillDiv"><img src={react} alt="react"/><br/>ReactJS</div>
+            <div className="skillDiv">
+            <img src={react} alt="react" className="skillimg"/><br/>ReactJS</div>
             <p/> 
             <div className="skillDiv">
-             <img src={redux} alt="redux" style={{width: "64px"}}/><br/>Redux</div>
+             <img src={redux} alt="redux" className="skillimg" style={{"border-radius": "50%"}}/><br/>Redux</div>
              <p/>
              <div className="skillDiv">
-             <img src={html} alt="html"/>
+             <img src={html} alt="html" className="skillimg"/>
              <br/>HTML</div>
              <p/>
              <div className="skillDiv">
-             <img src={css} alt="css"/><br/>
+             <img src={css} alt="css" className="skillimg"/><br/>
              CSS
              </div>
              <p/>
              <div className="skillDiv">
-            <img src={postgresql} alt="postgresql" style={{width: "64px", "border-radius": "50%"}}/><br/>PostgreSQL
+            <img src={postgresql} alt="postgresql" className="skillimg" style={{"border-radius": "50%"}}/><br/>PostgreSQL
              </div>
             <p/>
             <div className="skillDiv">
-            <img src={vue} alt="vue" style={{width: "64px"}}/>
+            <img src={vue} alt="vue" className="skillimg"/>
             <br/> VueJS
             </div>
             <p/>
             <div className="skillDiv">
-            <img src={git} alt="git" style={{width: "64px", "border-radius": "50%"}}/><br/>
+            <img src={git} alt="git" className="skillimg" style={{"border-radius": "50%"}}/><br/>
             Git & GitHub
             </div>
             <p/>
             <div className="skillDiv">
-            <img src={nodejs} alt="nodejs"/>
+            <img src={nodejs} alt="nodejs" className="skillimg"/>
             <br/>NodeJS
             </div>
             <p/>
             <div className="skillDiv">
-            <img src={heroku} alt="heroku" style={{width: "64px", "border-radius": "50%"}}/>
+            <img src={heroku} alt="heroku" className="skillimg" style={{"border-radius": "50%"}}/>
             <br/>Heroku
             </div>
             <p/>

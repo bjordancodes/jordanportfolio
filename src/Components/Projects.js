@@ -49,7 +49,7 @@ const kitneyImages = [
     },
 ]
 return (
-    <div className="bigContainer">
+    <div style={{"background-color": "#77e0dc", "min-height": '100vh'}}>
         <div style={{height: "20px"}}></div>
       <h1>
           Projects 
