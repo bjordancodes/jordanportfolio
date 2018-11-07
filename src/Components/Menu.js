@@ -9,11 +9,11 @@ render() {
 
 return (
       <div className="MenuBar">
-      <Link to="/" className="link">Home</Link>
-      <Link to="/AboutMe" className="link">About</Link>
-    <Link to="/Contact" className="link">Contact</Link>
-    <Link to="/Projects" className="link">Projects</Link>
-    <Link to="Skills" className="link">Skills</Link>
+      <div className="link" onClick={()=> this.props.handleShow("home")}>Home</div>
+      <Link to="/AboutMe" className="link" onClick={()=>this.props.handleShow("about2")}>About</Link>
+    <Link to="Skills" className="link" onClick={()=>this.props.handleShow("about2")}>Skills</Link>
+    <Link to="/Projects" className="link" onClick={()=>this.props.handleShow("about2")}>Projects</Link>
+    <Link to="/Contact" className="link" onClick={()=>this.props.handleShow("about2")}>Contact</Link>
       </div>
        )
 

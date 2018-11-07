@@ -11,10 +11,10 @@ return (
       <div className="bigContainer" style={{"background-color": "#fea674"}}>
             <div style={{height: "20px"}}></div>
                    <h1>
-                   About Me 
+                   About Me
                    </h1>
       <div className="projects">
-      <img src={jordan2} alt="Jordan" className="jordanpics"/>
+      <img src={jordan2} alt="Jordan" className="jordanpics bigify"/>
       <div className="aboutTextbox">
       <p>My name is Jordan, I'm a Dallas, Texas based former high school English teacher turned full stack web developer.</p>
       <p>I have a life long love of learning and I enjoy the challenges and problem solving involved in development.

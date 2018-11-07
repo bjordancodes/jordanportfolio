@@ -25,20 +25,23 @@ handleShow = (i) => {
 render() {
 
 return (
-      <div>
+      <div id="home">
       <div className="MenuBar bigify">
+      <div className="link" onClick={()=> this.handleShow("home")}>Home</div>
       <div to="/AboutMe" className="link" onClick={()=>this.handleShow("about")}>About</div>
       <div to="Skills" className="link" onClick={()=>this.handleShow("skills")}>Skills</div>
       <div to="/Projects" className="link" onClick={()=>this.handleShow("projects")}>Projects</div>
       <div to="/Contact" className="link" onClick={()=>this.handleShow("contact")}>Contact</div>
       </div>
       <div className="lilify">
-      <Menu/>
+      <Menu handleShow={this.handleShow}/>
       </div>
       <header>
-         <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan
-      <img src={downarrow} className="arrow" onClick={()=>this.handleShow("about")} alt="down arrow"/>
+      <img src={jordan1} alt="B. Jordan" className="profile-img"/> Bonnie Jordan 
+      <img src={downarrow} className="arrow bigify" onClick={()=>this.handleShow("about")} alt="down arrow"/>
+      <img src={downarrow} className="arrow lilify" onClick={()=>this.handleShow("about2")} alt="down arrow"/>
         </header>
+        <div className="lilify" id="about2"></div>
             <div className="bigify">
         <div id="about">
         <AboutMe />

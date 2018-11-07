@@ -147,6 +147,12 @@ Collaborated daily with team on front and back end issues
 </ul>
 </p>
           </div>
+<div className="textbox"></div>
+<div className="textbox">
+<h1>Portfolio</h1>
+You can view my code for this portfolio on 
+<a href="https://github.com/bjordancodes/jordanportfolio.git"> Github</a>
+    </div>
           </div>
           </div>
        )

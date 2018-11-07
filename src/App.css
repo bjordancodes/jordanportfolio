@@ -85,6 +85,34 @@ ul {
   text-align: left;
 }
 
+.contactCard{
+  margin: 15px;
+  height: 200px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.iconsize {
+  max-height: 40px;
+  max-width: 40px;
+  align-self: center;
+  padding: 5px;
+  margin-bottom: 80px;
+}
+
 .textbox {
   width: 45vw;
   height: 30vw;
@@ -172,8 +200,15 @@ h1 {
   width: 98vw;
   height: auto;
 }
+.aboutTextbox {
+  width: 98vw;
+  height: auto;
+}
 .GalleryContainer {
   width: 98vw;
   height: auto;
+}
+.bigContainer{
+  min-height: 80vh;
 }
 }
