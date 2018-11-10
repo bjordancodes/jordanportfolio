@@ -56,12 +56,11 @@ img {
 }
 
 .profile-img{
-    max-width: 400px;
+    margin: 10px 5px 0px 5px;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: #282c34 2px 2px 2px;
 
-}
-
-.jordanpics {
-  max-width: inherit;
 }
 
 .GalleryContainer {
@@ -120,7 +119,11 @@ a {
 }
 .aboutTextbox {
   width: 45vw;
+  max-width: 400px;
   min-height: 30vw;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: #282c34 2px 2px 2px;
 }
 
 .skills {
@@ -175,11 +178,12 @@ h1 {
   .lilify {
     display: none;
   }
+
   .bigContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     min-height: 100vh;
   }
 

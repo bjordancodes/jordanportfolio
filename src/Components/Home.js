@@ -53,7 +53,7 @@ return (
         <Projects/>
         </div>
         <div id="contact">
-        <Contact/>
+        <Contact />
         </div>
         </div>
       </div>

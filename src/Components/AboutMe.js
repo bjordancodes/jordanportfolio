@@ -16,7 +16,7 @@ return (
                    </h1>
       <div className="projects">
       <div className="aboutTextbox">
-      <img src={jordan1} alt="Jordan profile pic"/>
+      <img src={jordan1} className="profile-img" alt="Jordan profile pic"/>
       <p>My name is Jordan, I'm a Dallas, Texas based former high school English teacher turned full stack web developer.</p>
       <p>I have a life long love of learning and I enjoy the challenges and problem solving involved in development.
       I'm a huge comics and MCU nerd, a dog owner, a podcaster, a crocheter, and an RPGer. I love connecting with people and learning
