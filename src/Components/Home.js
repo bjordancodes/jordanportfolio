@@ -4,7 +4,6 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import Projects from './Projects';
 import Skills from './Skills';
-import jordan1 from '../images/jordan1.jpg';
 import downarrow from '../images/downarrow.png';
 import Menu from './Menu';
 

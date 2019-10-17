@@ -22,14 +22,20 @@ return (
             Skills
             </h1>
             <div className="skills">
+            <div className="skillDiv">
+            <img src={nodejs} alt="nodejs" className="skillimg"/>
+            <br/>NodeJS
+            </div>
+            <p/>
+            <div className="skillDiv">
+            <img src={postgresql} alt="postgresql" className="skillimg" style={{"border-radius": "50%"}}/><br/>PostgreSQL
+             </div>
+            <p/>
             <div className="skillDiv"><img src={javascript} alt="javascript" className="skillimg"/><br/>Javascript</div>
             <p/>
             <div className="skillDiv">
             <img src={react} alt="react" className="skillimg"/><br/>ReactJS</div>
-            <p/> 
-            <div className="skillDiv">
-             <img src={redux} alt="redux" className="skillimg" style={{"border-radius": "50%"}}/><br/>Redux</div>
-             <p/>
+            <p/>
              <div className="skillDiv">
              <img src={html} alt="html" className="skillimg"/>
              <br/>HTML</div>
@@ -39,23 +45,10 @@ return (
              CSS
              </div>
              <p/>
-             <div className="skillDiv">
-            <img src={postgresql} alt="postgresql" className="skillimg" style={{"border-radius": "50%"}}/><br/>PostgreSQL
-             </div>
-            <p/>
-            <div className="skillDiv">
-            <img src={vue} alt="vue" className="skillimg"/>
-            <br/> VueJS
-            </div>
             <p/>
             <div className="skillDiv">
             <img src={git} alt="git" className="skillimg" style={{"border-radius": "50%"}}/><br/>
             Git & GitHub
-            </div>
-            <p/>
-            <div className="skillDiv">
-            <img src={nodejs} alt="nodejs" className="skillimg"/>
-            <br/>NodeJS
             </div>
             <p/>
             <div className="skillDiv">
